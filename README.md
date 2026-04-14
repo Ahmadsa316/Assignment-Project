@@ -1,4 +1,4 @@
-# Week 3 Assignment – Shopping Cart (JavaFX + MySQL + Localization)
+# Week 4 Assignment – Shopping Cart (JavaFX + MySQL + Localization)
 
 ## Overview
 
