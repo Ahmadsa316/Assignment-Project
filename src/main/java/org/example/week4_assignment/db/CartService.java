@@ -5,6 +5,7 @@ import org.example.week4_assignment.model.CartItem;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.List;
 
@@ -26,8 +27,8 @@ public class CartService {
                 return rs.getInt(1);
             }
 
-        } catch (Exception ex) {
-            ex.printStackTrace();
+        } catch (SQLException ex) {
+            System.err.println("Failed to save cart record: " + ex.getMessage());
         }
 
         return -1;
@@ -50,8 +51,8 @@ public class CartService {
 
             stmt.executeBatch();
 
-        } catch (Exception ex) {
-            ex.printStackTrace();
+        } catch (SQLException ex) {
+            System.err.println("Failed to save cart items: " + ex.getMessage());
         }
     }
 }

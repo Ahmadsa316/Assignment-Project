@@ -3,6 +3,7 @@ package org.example.week4_assignment.db;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -15,7 +16,7 @@ public class LocalizationService {
         try (Connection conn = DatabaseConnection.getConnection()) {
 
             if (conn == null) {
-                System.out.println("Database connection failed.");
+                System.err.println("Database connection failed.");
                 return map;
             }
 
@@ -29,8 +30,8 @@ public class LocalizationService {
                 }
             }
 
-        } catch (Exception e) {
-            e.printStackTrace();
+        } catch (SQLException e) {
+            System.err.println("Failed to load localization data: " + e.getMessage());
         }
 
         return map;
