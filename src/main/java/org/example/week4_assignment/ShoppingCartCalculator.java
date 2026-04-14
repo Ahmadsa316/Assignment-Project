@@ -1,4 +1,4 @@
-package org.example.week3_assignment;
+package org.example.week4_assignment;
 
 public class ShoppingCartCalculator {
 

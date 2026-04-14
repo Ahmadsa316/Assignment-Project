@@ -1,4 +1,4 @@
-package org.example.week3_assignment.model;
+package org.example.week4_assignment.model;
 
 public class CartRecord {
 

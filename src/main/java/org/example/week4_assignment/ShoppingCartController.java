@@ -1,4 +1,4 @@
-package org.example.week3_assignment;
+package org.example.week4_assignment;
 
 import javafx.fxml.FXML;
 import javafx.geometry.NodeOrientation;
@@ -7,9 +7,9 @@ import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.VBox;
-import org.example.week3_assignment.db.CartService;
-import org.example.week3_assignment.db.LocalizationService;
-import org.example.week3_assignment.model.CartItem;
+import org.example.week4_assignment.db.CartService;
+import org.example.week4_assignment.db.LocalizationService;
+import org.example.week4_assignment.model.CartItem;
 
 import java.text.MessageFormat;
 import java.util.ArrayList;

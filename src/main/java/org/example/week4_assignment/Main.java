@@ -1,4 +1,4 @@
-package org.example.week3_assignment;
+package org.example.week4_assignment;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -10,7 +10,7 @@ public class Main extends Application {
     @Override
     public void start(Stage stage) throws Exception {
         FXMLLoader loader = new FXMLLoader(
-                Main.class.getResource("/org/example/week3_assignment/shopping_cart.fxml")
+                Main.class.getResource("/org/example/week4_assignment/shopping_cart.fxml")
         );
 
         Scene scene = new Scene(loader.load());

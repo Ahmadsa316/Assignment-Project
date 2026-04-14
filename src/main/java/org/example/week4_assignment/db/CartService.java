@@ -1,6 +1,6 @@
-package org.example.week3_assignment.db;
+package org.example.week4_assignment.db;
 
-import org.example.week3_assignment.model.CartItem;
+import org.example.week4_assignment.model.CartItem;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

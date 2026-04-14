@@ -1,4 +1,4 @@
-package org.example.week3_assignment.db;
+package org.example.week4_assignment.db;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
